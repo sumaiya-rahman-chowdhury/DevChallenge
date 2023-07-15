@@ -23,6 +23,7 @@ text-transform: uppercase;
     padding-top: 60px;
     padding-right: 119px;
     gap: 10px;
+    padding-bottom: 50px;
 }
 .image {
     width:50%;
@@ -59,4 +60,22 @@ font-weight: 700;
 line-height: normal;
 /* letter-spacing: -0.49px; */
 text-transform: uppercase;
+}
+footer >p{
+    color: #BDBDBD;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+footer >p>span{
+    color: #BDBDBD;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration-line: underline;
 }
