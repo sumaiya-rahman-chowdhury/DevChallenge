@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+.content{
+display: flex;
+justify-content: space-around;
+margin-top: 110px;
+margin-bottom:7.5rem ;
+}
+img{
+    
+    height: 471px;
+    flex-shrink: 0;
+    padding: 33px;
+    /* border: 2px solid black; */
+}
+
+
+footer p{
+    margin-top:144px ;
+    text-align: center;
+}
+.gallary{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-gap:30px 20px;
+    justify-content: center;
+ 
+}
+.img-gap{
+    margin-top: 90px;
+}

@@ -1,81 +1,172 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Space Mono', monospace;
 }
-.logo{
+
+.logo {
     padding-top: 40px;
     margin-left: 77px;
     color: #333;
-font-family: Inconsolata;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: -1.92px;
-text-transform: uppercase;
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.92px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+   
 }
-.container{
+
+.container {
     display: flex;
     height: 80vh;
     justify-content: space-around;
     align-items: center;
-    padding-top: 60px;
-    padding-right: 119px;
+    /* padding-top: 60px;
+    padding-right: 119px; */
     gap: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
+    /* padding-right: 3rem; */
 }
+
 .image {
-    width:50%;
+    width: 50%;
 
 }
+
 img {
-   height: 500px;
-   width: 500px;
-   padding-left: 55px;
+    height: 500px;
+    width: 500px;
+    /* padding-left: 2.5rem; */
 }
-.description > p{
- width: 286.83px;
 
-margin-top: 30px;
+.description>p {
+    width: 286.83px;
+
+    margin-top: 30px;
 }
-.description>h1{
+
+.description>h1 {
     color: var(--gray-1, #333);
-font-family: Space Mono;
-font-size: 64px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: -2.24px;
+    font-family: Space Mono;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* letter-spacing: -2.24px; */
 }
-.btn{
+
+.btn {
     padding: 23px 43px;
     margin-top: 30px;
     background: var(--gray-1, #333);
     color: #FFF;
-border: 0px;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-/* letter-spacing: -0.49px; */
-text-transform: uppercase;
+    margin-bottom: 20px;
+    border: 0px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* letter-spacing: -0.49px; */
+    text-transform: uppercase;
 }
-footer >p{
+
+.footer>p {
     color: #BDBDBD;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer>p>span {
+    color: #BDBDBD;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+
+
+
+@media only screen and (max-width: 577px) {
+    .logo {
+        text-align: left;
+        padding-top: 20px;
+        margin-left: 24px;
+        font-size: 12px;
+        /* height: 170px; */
+    }
+
+    .container {
+        flex-direction: column;
+        /* padding-left: 2rem; */
+        height: 100vh;
+      
+    }
+
+    .description>p {
+        padding: 10px;
+
+    }
+
+    .footer {
+        display: flex;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    img {
+      /* margin: auto; */
+        width:50%;
+        /* padding: 20px; */
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .description>h1 {
+        font-size: 16px;
+    }
+
+    .btn {
+        margin-bottom: 100px;
+    }
+
+    .footer>p {
+        color: #BDBDBD;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 5px;
+
+    }
+    .footer{
+        text-align: center;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .footer>p>span {
+        color: #BDBDBD;
+        font-family: Montserrat;
+        font-size: 10px;
 text-align: center;
-font-family: Montserrat;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-}
-footer >p>span{
-    color: #BDBDBD;
-font-family: Montserrat;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-decoration-line: underline;
+        text-decoration-line: underline;
+    }
+
+    .image {
+        width: 500px;
+        height: auto;
+        margin-top: 20px;
+       
+    }
+
 }
